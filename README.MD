@@ -33,3 +33,15 @@ Revisiting Regular Expressions via FreeCodeCamp resources and copying passed cod
     ```
 
         - Reversible by using capital letter, i.e. using 'W' in the above would make the 'result' variable return 6 (count of spaces and period)
+
+- Remembered how to stipulate that a string must start or end with a particular character using ^ and *. Example:
+    ```
+    let someRegex = /^[a-z]/ //Ensures string begins with a letter.
+    let someOtherRegex = /[0-9]$/ ////Ensures string ends with a number.
+    ```
+
+    - Works with shorthand character sets. Example:
+
+    ```
+    let someOtherRegex = /\d$/ ////Ensures string ends with a number.
+    ```
