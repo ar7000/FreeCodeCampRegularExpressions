@@ -32,7 +32,7 @@ Revisiting Regular Expressions via FreeCodeCamp resources and copying passed cod
     let result = quoteSample.match(testRegex).length; //Returns 32 (count of all characters that are not a space or period)
     ```
 
-        - Reversible by using capital letter, i.e. using 'W' in the above would make the 'result' variable return 6 (count of spaces and period)
+    - Reversible by using capital letter, i.e. using 'W' in the above would make the 'result' variable return 6 (count of spaces and period)
 
 - Remembered how to stipulate that a string must start or end with a particular character using ^ and *. Example:
     ```
